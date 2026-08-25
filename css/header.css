@@ -1,0 +1,33 @@
+.logo {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.web {
+  color: #4d5ae5;
+}
+
+.nav {
+  font-weight: 500;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.adrs {
+  color: #434455;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.adrs:hover,
+.adrs:focus,
+.nav:hover,
+.nav:focus {
+  color: #404bbf;
+}
