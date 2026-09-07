@@ -19,4 +19,17 @@
 
 .footer p {
   color: #f4f4fd;
+  max-width:;
+}
+
+.footer .container {
+  padding: 0 15px;
+}
+
+.footer .footer-information {
+  display: flex;
+  flex-direction: column;
+  max-width: 264px;
+  gap: 16px;
+  padding: 100px 15px;
 }
