@@ -25,6 +25,12 @@
   gap: 24px;
 }
 
+.portfolio li {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
 .portfolio .portfolio-card {
   display: flex;
   flex-direction: column;
