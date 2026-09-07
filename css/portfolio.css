@@ -1,3 +1,7 @@
+.portfolio {
+  padding: 120px 0;
+}
+
 .portfolio h2 {
   font-weight: 700;
   font-size: 36px;
@@ -14,15 +18,11 @@
   color: #2e2f42;
 }
 
-.portfolio .container {
-  padding: 120px 0;
-}
-
 .portfolio ul {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 24px;
+  gap: 48px 24px;
 }
 
 .portfolio li {
@@ -40,4 +40,8 @@
   border-right: 1px solid #e7e9fc;
   padding: 32px 16px;
   gap: 8px;
+}
+
+.portfolio .portfolio-photo {
+  display: block;
 }

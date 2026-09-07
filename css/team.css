@@ -1,5 +1,6 @@
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .card {
@@ -29,7 +30,6 @@
 .team .container {
   display: flex;
   flex-direction: column;
-  padding: 120px 0;
   gap: 72px;
 }
 
@@ -41,7 +41,6 @@
 .team li {
   display: flex;
   flex-direction: column;
-  gap: 3;
   border-radius: 0 0 4px 4px;
 }
 
@@ -50,4 +49,8 @@
   flex-direction: column;
   padding: 32px 16px;
   gap: 8px;
+}
+
+.team .team-photo {
+  display: block;
 }

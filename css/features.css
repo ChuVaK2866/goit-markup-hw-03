@@ -1,13 +1,16 @@
-.features h2 {
+.features {
+  padding: 120px 0;
+}
+
+.features .sr-only {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
   text-align: center;
   color: #2e2f42;
-  display: none;
 }
 
-.features h3 {
+.features .feature-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -19,15 +22,15 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 120px 0;
 }
-.features ul {
+.features .features-list {
   display: flex;
   gap: 24px;
 }
 
-.features li {
+.features .features-list-item {
   display: flex;
+  max-width: 264px;
   flex-direction: column;
   gap: 8px;
 }
