@@ -49,13 +49,11 @@
 .header .navigation-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header .address-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .header .header-address {
   margin-left: auto;
@@ -64,4 +62,5 @@
 .header .navigation-link,
 .header .address-link {
   display: block;
+  padding: 24px 0;
 }
