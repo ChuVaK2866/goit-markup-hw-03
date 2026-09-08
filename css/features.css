@@ -30,7 +30,7 @@
 
 .features .features-list-item {
   display: flex;
-  max-width: 264px;
+  width: 264px;
   flex-direction: column;
   gap: 8px;
 }
